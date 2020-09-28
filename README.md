@@ -4,7 +4,9 @@
 
 ### Instructions:
 **To begin the program call in cmd:**  
-python -m VisualGraphTheory  
+```
+python -m VisualGraphTheory
+```
 
 or
 
@@ -19,11 +21,11 @@ or
 Scroll using the Middle Mouse Wheel to
 change modes. These modes include the
 following:  
-1. (Wheel Section) Algorithms  
-2. (Wheel Section) Configuration  
-3. (Green) Node Manipulation 
-4. (Blue) Diretional Edge Manipulation  
-5. (Red) Unidirectional Edge Manipulation  
+1. (Wheel Section) **Algorithms**  
+2. (Wheel Section) **Configuration**  
+3. (Green) **Node Manipulation** 
+4. (Blue) **Diretional Edge Manipulation**  
+5. (Red) **Unidirectional Edge Manipulation**  
         
 Click and hold the Middle Mouse Wheel
 to drag the screen around.
@@ -68,8 +70,7 @@ Is a wheel with 4 sections/options:
 To manipulate a setting hold the Right
 Mouse and move in the direction of the
 desired option and use the Middle Mouse
-Button to Scroll and change values.  
-
+Button to Scroll and change values.
 To select an option hold the Right
 Mouse Button and move in the direction
 of the desired option and let go.  
@@ -104,7 +105,7 @@ Mouse Button.
 To delete a node double click
 the Right Mouse Button.  
     
-### 4. Diretional Edge Manipulation Controls:
+### 4. Directional Edge Manipulation Controls:
 Allows for the creation and
 removal of a directional edges.
 To create a directed edge, hold
