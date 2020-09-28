@@ -14,8 +14,8 @@ or
 >>> initialize()
 ```
     
-### Controls:
-**General Controls:**  
+# Controls:
+## General Controls:
 Scroll using the Middle Mouse Wheel to
 change modes. These modes include the
 following:  
@@ -28,17 +28,17 @@ following:
 Click and hold the Middle Mouse Wheel
 to drag the screen around.
     
-**1. Algorithms Controls:**  
+### 1. Algorithms Controls: 
 Is a wheel with 3 options:  
-- (Option) DFS-IF (Depth First Search Island Finder)  
-- (Option) BFS-PF (Breath First Search Path Finder)  
-- (Option) Exit  
+- (Option) **DFS-IF (Depth First Search Island Finder)**  
+- (Option) **BFS-PF (Breath First Search Path Finder)**  
+- (Option) **Exit**  
         
 To select an option hold the Right
 Mouse Button and move in the direction
 of the desired option and let go.  
         
-DFS-IF (Depth First Search Island Finder) Action:
+**DFS-IF (Depth First Search Island Finder) Action:**  
 If chosen, then an animation using
 the nodes and edges created by the
 user will mirror the DFS algorithm.
@@ -46,7 +46,7 @@ During the animation General controls
 will be disabled. Note will only run
 if all edges are of the same type.  
         
-BFS-PF (Breath First Search Path Finder) Action:
+**BFS-PF (Breath First Search Path Finder) Action:**  
 If chosen, then an animation using
 the nodes and edges created by the
 user will mirror the BFS algorithm.
@@ -54,16 +54,16 @@ During the animation General controls
 will be disabled. Note will only run
 if all edges are of the same type.  
         
-Exit:
+**Exit:**  
 Is an option to not perform any of
 the above animations.  
     
-**2. Configuration Controls:**  
+### 2. Configuration Controls:
 Is a wheel with 4 sections/options:  
-- (Setting) S-Node (Start Node)  
-- (Setting) E-Node (End Node)  
-- (Setting) dt (delta time)  
-- (Option) Reset  
+- (Setting) **S-Node (Start Node)**  
+- (Setting) **E-Node (End Node)**  
+- (Setting) **dt (delta time)**  
+- (Option) **Reset**  
         
 To manipulate a setting hold the Right
 Mouse and move in the direction of the
@@ -74,58 +74,51 @@ To select an option hold the Right
 Mouse Button and move in the direction
 of the desired option and let go.  
         
-S-Node (Start Node) Setting:  
+**S-Node (Start Node) Setting:**  
 Is used to identify which node
 will act as the starting node
 for each algorithm.  
         
-E-Node (End Node) Setting:  
+**E-Node (End Node) Setting:**  
 Is used to identify which node
 will act as the ending node for
 each algorithm, if applicable
 (i.e. BFS).  
 
-dt (delta time) Setting:  
+**dt (delta time) Setting:**  
 Is used to determine the step
 time of the animation. (i.e.
 how fast the animation moves)  
         
-Reset Action:  
+**Reset Action:**  
 Resets all configurations and
 removes all nodes/edges.  
     
-**3. Node Manipulation Controls:**  
+### 3. Node Manipulation Controls:
 Allows for the creation, manipulation
-and removal of nodes.  
-        
+and removal of nodes.
 To create a node click the Left
-Mouse Button.  
-        
+Mouse Button.
 To move a node hold the Right
-Mouse Button.  
-        
+Mouse Button.
 To delete a node double click
 the Right Mouse Button.  
     
-**4. Diretional Edge Manipulation Controls:**  
+### 4. Diretional Edge Manipulation Controls:
 Allows for the creation and
-removal of a directional edges.  
-        
+removal of a directional edges.
 To create a directed edge, hold
 the Left Mouse Button on a node
-and release on another node.  
-        
+and release on another node.
 To remove a directed edge, double
 click a directed edge.  
     
-**5. Unidirectional Edge Manipulation Controls:**  
+### 5. Unidirectional Edge Manipulation Controls:
 Allows for the creation and
-removal of a unidirectional edges.  
-
+removal of a unidirectional edges.
 To create a unidirected edge, hold
 the Left Mouse Button on a node
-and release on another node.  
-        
+and release on another node.
 To remove a unidirected edge, double
 click a directed edge.  
 
