@@ -1,6 +1,13 @@
+This is a 2D graphical program that uses pyOpenGL to
+animate a steps-by-step process of basic Graph Theory
+algorithms. This include a Depth First Search and a
+Breath First Search algorithm that runs through a 
+user created graph to identify isolated nodes or
+find a path between two points.
+
 ### Requirements:
 **Python:** 3.6, 3.7, 3.8  
-**Module(s):** pyopengl
+**Library(s):** pyopengl
 
 ### Instructions:
 **To begin the program call in cmd:**  
